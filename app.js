@@ -17,6 +17,9 @@ function sum(a,b){ //eslint-disable-line
   return [sum, output];
 }
 
+var sumOutput = document.getElementById('sum');
+sumOutput.textContent = sum(4, 7)[0];
+
 // TODO: Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
@@ -36,6 +39,9 @@ function multiply(a,b){ //eslint-disable-line
     var output = 'The product of ' + a + ' and ' + b + ' is ' + product + '.';
   return [product, output];
 }
+
+var productOutput = document.getElementById('product');
+productOutput.textContent = multiply(5,9)[0];
 
 // TODO: Here is the test for multiply(); uncomment it to run it
 testMultiply(5,9);
