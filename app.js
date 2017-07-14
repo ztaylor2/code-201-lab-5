@@ -12,9 +12,9 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 
 // TODO: Write your code here
 function sum(a,b){ //eslint-disable-line
-  var result = a + b;
-  var message = 'The sum of ' + a +' and ' + b + ' is ' + result + '.';
-  return [result, message];
+    var sum = a + b;
+    var output = 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.';
+  return [sum, output];
 }
 
 // TODO: Here is the test for sum(); uncomment it to run it
