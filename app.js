@@ -12,8 +12,8 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 
 // TODO: Write your code here
 function sum(a,b){ //eslint-disable-line
-    var sum = a + b;
-    var output = 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.';
+  var sum = a + b;
+  var output = 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.';
   return [sum, output];
 }
 
@@ -35,8 +35,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // TODO: Write your code here
 function multiply(a,b){ //eslint-disable-line
-    var product = a * b;
-    var output = 'The product of ' + a + ' and ' + b + ' is ' + product + '.';
+  var product = a * b;
+  var output = 'The product of ' + a + ' and ' + b + ' is ' + product + '.';
   return [product, output];
 }
 
@@ -64,8 +64,8 @@ function sumAndMultiply(a,b,c){ //eslint-disable-line
   var sum = a + b + c;
   var product = a * b * c;
   var sumString = a + ' and ' + b + ' and ' + c + ' sum to ' + sum + '.';
-  var productString = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + product + '.'
-  return [sum, product, sumString, productString]
+  var productString = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + product + '.';
+  return [sum, product, sumString, productString];
 }
 
 // TODO: Here is the test for sumAndMultiply(); uncomment it to run it
@@ -89,7 +89,7 @@ var testArray = [2,3,4]; //eslint-disable-line
 function sumArray(testArray){ //eslint-disable-line
   var totalSum = sum(sum(testArray[0],testArray[1])[0],testArray[2])[0];
   var output = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + totalSum + ' is their sum.';
-  return [sum, output]
+  return [sum, output];
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
